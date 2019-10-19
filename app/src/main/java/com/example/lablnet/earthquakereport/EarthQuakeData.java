@@ -75,7 +75,7 @@ public class EarthQuakeData  {
                                 earthquakeList.add(mEarthQuake);
                             }
                         } catch (JSONException e1) {
-                            Log.e("EarthQuakeDaata","Probelm poarsing jaon",e1);
+                            Log.e("EarthQuakeDaata","Probelm poarsing JSON",e1);
                             e1.printStackTrace();
                         }
 
